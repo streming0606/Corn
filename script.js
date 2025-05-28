@@ -1,12 +1,9 @@
 // Sample video data
 const videoData = [
-    {
-        id: 1,
-        title: "Amazing Sunset Timelapse",
-        views: "2.1M",
-        date: "3 days ago",
-        duration: "4:32",
-        category: "nature"
+    {<video width="640" height="360" controls>
+  <source src="https://streamtape.com/v/rAoKGL3gJXSaD8/video3.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
     },
     {
         id: 2,
