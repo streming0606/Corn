@@ -367,4 +367,4 @@ document.addEventListener('keydown', function(e) {
     // ESC key to go back to homepage from video player
     if (e.key === 'Escape' && currentPage === 'video') {
         showHomepage();
-    }
+                }
