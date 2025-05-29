@@ -1,9 +1,12 @@
 // Sample video data
 const videoData = [
-    {<video width="640" height="360" controls>
-  <source src="https://streamtape.com/v/rAoKGL3gJXSaD8/video3.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+    {
+        id: 1,
+        title: "Amazing Sunset Timelapse",
+        views: "2.1M",
+        date: "3 days ago",
+        duration: "4:32",
+        category: "nature"
     },
     {
         id: 2,
@@ -364,4 +367,4 @@ document.addEventListener('keydown', function(e) {
     // ESC key to go back to homepage from video player
     if (e.key === 'Escape' && currentPage === 'video') {
         showHomepage();
-                }
+        }
